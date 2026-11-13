@@ -1,0 +1,18 @@
+{
+  "name": "linkedin-infographic-generator",
+  "private": true,
+  "description": "Animated and static LinkedIn infographics: 2D motion, 3D diorama, flat graphics and flowcharts.",
+  "scripts": {
+    "setup": "playwright install chromium",
+    "new": "sh scripts/new.sh",
+    "check": "python3 scripts/check-template.py && python3 context/scripts/wiki_lint.py",
+    "icons": "node scripts/build-icons.mjs",
+    "logo": "node scripts/add-logo.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0",
+    "lucide-static": "0.468.0",
+    "playwright": "1.58.2",
+    "simple-icons": "13.21.0"
+  }
+}

@@ -1,0 +1,18 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+output/
+# the README infographic is a committed showcase: keep its rendered files
+!docs/readme-infographic/output/
+frames/
+scene.bundle.js
+__pycache__/
+*.pyc
+**/settings.local.json
+context/raw/sources/
+context/raw/assets/
+# private brand source files stay on this machine (anchored: skills/*/references/ is tracked)
+/references/

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "motion-infographic",
+      "group": "Motion",
+      "description": "Build a flat 2D animated LinkedIn infographic on Canvas 2D, exported as a 1080 x 1350 still, MP4 and GIF. Two starters: feed (phone-readable steps, stats, counters, bars, icon badges) and map (a dense system-map poster with stages, icon cards, logo chips, connectors, decisions and dot matrices), both with a build-in in reading order and a seamless loop. Use for any animated infographic, GIF or motion graphic for a post or lead magnet; 3D scenes go to diorama-3d, static stills and carousels to graphics-designer.",
+      "path": "skills/motion-infographic/SKILL.md",
+      "sources": [
+        {
+          "repo": "timscheuerai/linkedin-funnel",
+          "path": "video/explainer.html, video/render.py",
+          "treatment": "new skill: deterministic draw(t) Canvas renderer ported to Node, 1080 x 1350, reusable helpers, layout check, diorama-3d encode settings"
+        },
+        {
+          "repo": "timscheuerai/linkedin-funnel",
+          "path": "skills/flowchart/references/design-and-tools.md, assets/content-waterfall.gif",
+          "treatment": "2026-11-13: diagram grammar ported to canvas (card, stage, connector, diamond, dot matrix); map starter modelled on the content-waterfall structure. Icons from lucide-static 0.468.0 (ISC), logos from simple-icons 13.21.0 (CC0)."
+        }
+      ],
+      "template_adaptation": "Added 2026-11-13 for linkedin-infographic-generator."
+    },
+    {
+      "name": "graphics-designer",
+      "group": "Visuals",
+      "description": "Create an individual graphic, carousel or banner using the client's supplied visual rules, or a neutral unbranded layout when requested.",
+      "path": "skills/graphics-designer/SKILL.md",
+      "sources": [
+        {
+          "repo": "OXYGEN-CRO/content-engine-template",
+          "revision": "17eb37ada46ceb2193f76eaae3658b230ed4a56d",
+          "path": ".agents/skills/graphics-designer/SKILL.md",
+          "treatment": "adapted context paths; retained generic procedure"
+        },
+        {
+          "repo": "timscheuerai/content-vault",
+          "revision": "848abc38d4b733ebf704f5c5ff8486f3e2908412",
+          "path": "skills/graphics-designer/SKILL.md",
+          "treatment": "merged into generic procedure"
+        },
+        {
+          "repo": "OXYGEN-CRO/oxygen-knowledge",
+          "revision": "d676524b37d10ece0f12a55f4b51e754e486fb73",
+          "path": "personal-brand/.agents/skills/graphics-designer/SKILL.md",
+          "treatment": "2026-10-20 refresh: generic method changes ported; private IDs, people, metrics and verdicts left out"
+        }
+      ],
+      "template_adaptation": "Copied from timscheuerai/linkedin-funnel on 2026-11-13; funnel, OXYGEN and Notion coupling removed; output in root output/."
+    },
+    {
+      "name": "linkedin-hook-writer",
+      "group": "Copy",
+      "description": "Write, revise or compare LinkedIn hooks and infographic headlines in the author's voice, with measured character counts and mobile-first opening budgets. Use for hook options, first-line edits, or the headline and subline of a graphic.",
+      "path": "skills/linkedin-hook-writer/SKILL.md",
+      "sources": [
+        {
+          "repo": "timscheuerai/personal-brand",
+          "revision": "66436597ada52c78d97391d59c207f5fa32ad95b",
+          "path": ".agents/skills/linkedin-hook-writer/SKILL.md",
+          "treatment": "rewritten as a template: private IDs, people, metrics and workspace paths removed; kit skill names and context paths"
+        },
+        {
+          "repo": "OXYGEN-CRO/oxygen-knowledge",
+          "revision": "d676524b37d10ece0f12a55f4b51e754e486fb73",
+          "path": "personal-brand/.agents/skills/linkedin-hook-writer/SKILL.md",
+          "treatment": "2026-10-20 refresh: generic method changes ported; private IDs, people, metrics and verdicts left out"
+        }
+      ],
+      "template_adaptation": "Copied from timscheuerai/linkedin-funnel on 2026-11-13; funnel, OXYGEN and Notion coupling removed; output in root output/."
+    },
+    {
+      "name": "brand-system",
+      "group": "Visuals",
+      "description": "Establish or update a client's visual identity, reusable tokens and graphic conventions from their preferences and supplied assets.",
+      "path": "skills/brand-system/SKILL.md",
+      "sources": [
+        {
+          "repo": "OXYGEN-CRO/content-engine-template",
+          "revision": "17eb37ada46ceb2193f76eaae3658b230ed4a56d",
+          "path": ".agents/skills/brand-system/SKILL.md",
+          "treatment": "adapted context paths; retained generic procedure"
+        },
+        {
+          "repo": "OXYGEN-CRO/oxygen-knowledge",
+          "revision": "d676524b37d10ece0f12a55f4b51e754e486fb73",
+          "path": "personal-brand/.agents/skills/brand-system/SKILL.md",
+          "treatment": "2026-10-20 refresh: generic method changes ported; private IDs, people, metrics and verdicts left out"
+        }
+      ],
+      "template_adaptation": "Copied from timscheuerai/linkedin-funnel on 2026-11-13; funnel, OXYGEN and Notion coupling removed; output in root output/."
+    },
+    {
+      "name": "brand-review",
+      "group": "Visuals",
+      "description": "Review a rendered graphic or visual system for message clarity, identity consistency and export quality; make fixes when requested.",
+      "path": "skills/brand-review/SKILL.md",
+      "sources": [
+        {
+          "repo": "OXYGEN-CRO/content-engine-template",
+          "revision": "17eb37ada46ceb2193f76eaae3658b230ed4a56d",
+          "path": ".agents/skills/brand-review/SKILL.md",
+          "treatment": "adapted context paths; retained generic procedure"
+        },
+        {
+          "repo": "OXYGEN-CRO/oxygen-knowledge",
+          "revision": "d676524b37d10ece0f12a55f4b51e754e486fb73",
+          "path": "personal-brand/.agents/skills/brand-review/SKILL.md",
+          "treatment": "2026-10-20 refresh: generic method changes ported; private IDs, people, metrics and verdicts left out"
+        }
+      ],
+      "template_adaptation": "Copied from timscheuerai/linkedin-funnel on 2026-11-13; funnel, OXYGEN and Notion coupling removed; output in root output/."
+    },
+    {
+      "name": "diorama-3d",
+      "group": "Motion",
+      "description": "Build a 3D diorama graphic in three.js that tells a system as a place (a room, a factory floor, a machine line), with the roles and tools as glossy toys, labels projected from 3D, a 2-second build-in and a seamless loop, exported as a 1080 x 1350 still, MP4 and GIF. Use for a 3D system graphic for a post or lead magnet; flat animated infographics go to motion-infographic, flat posters stay in graphics-designer and editable process maps in flowchart.",
+      "path": "skills/diorama-3d/SKILL.md",
+      "sources": [
+        {
+          "repo": "OXYGEN-CRO/oxygen-knowledge",
+          "revision": "814f74f3ccf18c293142a184d413525d8633fc53",
+          "path": "personal-brand/.agents/skills/diorama-3d/SKILL.md",
+          "treatment": "rewritten as a template: the author's palette, photo and copy as placeholders, own renderer, Tim's verdicts generalised; three.js vendored under MIT"
+        }
+      ],
+      "template_adaptation": "Copied from timscheuerai/linkedin-funnel on 2026-11-13; funnel, OXYGEN and Notion coupling removed; output in root output/."
+    },
+    {
+      "name": "flowchart",
+      "group": "Visuals",
+      "description": "Create editable flowcharts, system maps and funnels with semantic icons, structured operation cards, distinct skill and decision shapes, and verified routing.",
+      "path": "skills/flowchart/SKILL.md",
+      "sources": [
+        {
+          "repo": "OXYGEN-CRO/content-engine-template",
+          "revision": "17eb37ada46ceb2193f76eaae3658b230ed4a56d",
+          "path": ".agents/skills/flowchart/SKILL.md",
+          "treatment": "adapted context paths; retained generic procedure"
+        }
+      ],
+      "template_adaptation": "Copied from timscheuerai/linkedin-funnel on 2026-11-13; funnel, OXYGEN and Notion coupling removed; output in root output/."
+    }
+  ]
+}

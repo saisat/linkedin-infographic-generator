@@ -1,0 +1,12 @@
+{
+  "source": "timscheuerai/linkedin-funnel assets/content-waterfall.gif (Content waterfall lead magnet animation, 2026-10-05)",
+  "scope": "Quality reference only: Tim Scheuer's own artwork and results. It is a flat 2D animated system map, not a 3D diorama: stage containers, icon cards with meta headers, product logos, connectors, decision diamonds and a dot-matrix schedule, built top-down in about 2 s, then a CTA band. The pipeline that animated it is not in the source template; its editable layout is assets/content-waterfall.excalidraw there. It contains third-party photos and product logos that are not licensed by this project. Do not reuse it or copy its identity.",
+  "assets": [
+    {
+      "file": "content-waterfall.gif",
+      "sha256": "1e58d314b45e74be30c5a6a2cc0caa343442ac37eefa61953127e1db595a0d36",
+      "dimensions": "1080 x 1350",
+      "look_at": "icon-led cards, logo chips, connector routing, stage-by-stage build, count-up stats, highlighted headline mark"
+    }
+  ]
+}

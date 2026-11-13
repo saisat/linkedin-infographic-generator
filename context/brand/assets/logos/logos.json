@@ -1,0 +1,37 @@
+{
+  "note": "Product logos for nominative use (referring to products Sai uses or discusses). Icon data from Simple Icons (CC0); every mark remains its owner’s trademark. Follow the owner’s guidelines; never alter, combine or imply endorsement.",
+  "logos": {
+    "claude": {
+      "title": "Claude",
+      "file": "claude.svg",
+      "fill": "#D97757",
+      "source": "simple-icons 13.21.0",
+      "guidelines": null,
+      "added": "2026-11-13"
+    },
+    "nodedotjs": {
+      "title": "Node.js",
+      "file": "nodedotjs.svg",
+      "fill": "#5FA04E",
+      "source": "simple-icons 13.21.0",
+      "guidelines": "https://nodejs.org/en/about/branding",
+      "added": "2026-11-13"
+    },
+    "ffmpeg": {
+      "title": "FFmpeg",
+      "file": "ffmpeg.svg",
+      "fill": "#007808",
+      "source": "simple-icons 13.21.0",
+      "guidelines": null,
+      "added": "2026-11-13"
+    },
+    "python": {
+      "title": "Python",
+      "file": "python.svg",
+      "fill": "#3776AB",
+      "source": "simple-icons 13.21.0",
+      "guidelines": "https://www.python.org/community/logos/",
+      "added": "2026-11-13"
+    }
+  }
+}
